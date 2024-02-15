@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #FFF;
+}
+
+p {
+    color: #1b1425;
+}
+
+body {
+    background-color: #2d2e32;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+    position: sticky;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin-right: 17px;
+}
+
+header ul li a {
+    color: #FFF;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.left-section img {
+    max-width: 90%;
+    height: auto;
+}
+
+.right-section {
+    width: 60%;
+    margin-left: 2%;
+    padding-left: 20px;
+}
+
+.left-section {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.left-section img {
+    max-width: 100%;
+    border-radius: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px;
+}
+
+.intro h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main-text h1 {
+    font-size: 86px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.paragraph p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffaf29;
+    color: #25262a;
+    border-radius: 5px;
+}
+
+.cv-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffaf29;
+    color: #25262a;
+    border-radius: 5px;
+}
+
+.kotak-skl {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+.kotk {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    border: 2px solid #ffffff;
+    width: 13%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border-radius: 7px;
+}
+
+.kotk img {
+    height: 87px;
+    margin-left: 2%;
+}
+
+.kotk h4 {
+    margin-top: 13%;
+    margin-left: 2%;
+}
+
+.kiri-p {
+    margin-top: 2%;
+}
+
+.kiri {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kiri p {
+    color: #b3b1b1;
+}
+
+
+.kiri a {
+    text-decoration: none;
+    color: #f9c806;
+}
+
+.project12 {
+    margin-top: -6%;
+}
